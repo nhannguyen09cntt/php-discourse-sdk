@@ -29,7 +29,7 @@ namespace xxxx;
 use Discourse\Discourse;
 ...
 $discourse = new Discourse();
-$response = $this->discourse->get('/c/11.json', ['page' => 1]);
+$response = $discourse->get('/c/11.json', ['page' => 1]);
 $body = $response->getDecodedBody();
 $topics = $body['topic_list']['topics'];
 ...
