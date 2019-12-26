@@ -22,7 +22,15 @@ Or manually add it to your composer.json:
 ```
 
 ## Usage
+Env
+```
+#.env
 
+DISCOURSE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DISCOURSE_API_USER=admin
+```
+
+Source code:
 ```
 <?php
 namespace xxxx;
