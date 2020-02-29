@@ -16,6 +16,7 @@ Or manually add it to your composer.json:
 {
   "require": {
     "php": "^7.2",
+    "guzzlehttp/guzzle": "^7.0",
     "nhannguyen09cntt/php-discourse-sdk": "^1.0"
   }
 }
